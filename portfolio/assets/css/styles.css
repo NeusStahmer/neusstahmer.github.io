@@ -137,4 +137,13 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+/* ----------------------- RESPONSIVE ------------------ */
 
+@media (min-width: 60em) {
+
+  .navigation {
+    display: block;
+  }
+
+
+}
