@@ -108,14 +108,39 @@ h3 {
     padding: 2rem 0;
   }
 
+ul,
+li {
+    list-style: none;
+    display: flex;
+    padding: 0rem 2rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
+    color: #0F0F0E;
+  }
+
+ul,
+li,
+a,
+{
+  font-size: 2.4rem;
+  transform: uppercase;
+}
+
+
 p {
   padding: 0.5rem 0;
 }
 
 .row {
   position: relative;
+  width: 100%;
 }
 
+.header {
+  width: 100%;
+  padding: 1.5rem 0 4rem 0;
+}
 .row::after {
   background: #0F0F0E;
   content: '';
@@ -141,7 +166,14 @@ p {
 
 .navigation {
   display: none;
+  float: right;
+  padding-right: 2.8rem;
 }
+
+.menu-open {
+  float:right;
+}
+
 
 .menu-close {
   display: none;
@@ -153,6 +185,7 @@ p {
 
   .navigation {
     display: block;
+
   }
   .menu-open {
     display: none;
