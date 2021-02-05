@@ -95,10 +95,11 @@
 
 h2 {
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 11.0rem; 
+  font-size: 16.0rem; 
   font-weight: 400; 
-  line-height: 1.1;
+  line-height: 1;
   padding: 0mm 2.8rem;
+  text-align: center;
 }
 
 h3 {
@@ -106,6 +107,7 @@ h3 {
     font-weight: 400; 
     line-height: 1.2;
     padding: 2rem 0;
+    
   }
 
 ul,
@@ -123,7 +125,7 @@ ul,
 li,
 a,
 {
-  font-size: 2.4rem;
+  font-size: 3.6rem;
   transform: uppercase;
 }
 
@@ -154,7 +156,7 @@ p {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 65rem;
+    max-width: 73rem;
     padding: 2rem 2.8rem;
   }
 
@@ -169,9 +171,21 @@ p {
   float: right;
   padding-right: 2.8rem;
 }
+.button {
+  background: none;
+  border: 0;
+  color: inherit;
+  overflow: hidden;
+  padding:0;
+}
 
 .menu-open {
   float:right;
+  padding-right: 2.8rem;
+  background: none;
+  border: 0;
+  color: inherit;
+  overflow: hidden;
 }
 
 
@@ -191,5 +205,20 @@ p {
     display: none;
   }
 
+  h2 {
+    font-size: 18.0rem; 
+  text-align: left;
 
+  }
+
+
+  .row::after {
+    background: #0F0F0E;
+    content: '';
+    display: block;
+    height: 1px;
+    max-width: 60rem;
+    position: absolute;
+    width: 100%;
+  }
 }
