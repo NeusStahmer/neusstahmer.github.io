@@ -106,6 +106,7 @@ h1 {
     line-height: 1;
     padding: 0 2rem 2rem 2rem;
     text-align: left;
+    word-break: break-all;
   }
 
 h2 {
@@ -166,9 +167,7 @@ p {
   padding: 0.8rem 0;
 }
 
-.footer {
-  align-content: center;
-}
+
 
 
 
@@ -189,12 +188,16 @@ p {
   width: 100%;
  
 }
-/* ------------------------ ABOUT ---------------------- */
+/* ------------------------ MARGINS ---------------------- */
 
 .wrapper {
     margin: 0 auto;
     max-width: 73rem;
     padding: 2rem 2rem;
+  }
+
+.footer {
+    text-align: center;
   }
 
 
@@ -226,7 +229,7 @@ p {
 }
 /* ----------------------- HOME BUTTON ------------------ */
 
-.button {
+.button2 {
   background: #F8F9F6;
   border: 1px solid #0F0F0E;
   color: #0F0F0E;
