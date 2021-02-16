@@ -154,9 +154,15 @@ p {
   padding: 1.5rem 0 4rem 0;
 }
 
-.foto {
+.foto1 {
   width: 100%;
   padding: 2rem 0;
+  max-width: 83.5rem;
+}
+.foto2 {
+  width: 100%;
+  padding: 2rem 0;
+  max-width: 83.5rem;
 }
 
 
@@ -240,6 +246,7 @@ p {
 .menu-close {
   display: none;
 }
+
 /* ----------------------- HOME BUTTON ------------------ */
 
 .button2 {
@@ -274,5 +281,15 @@ p {
   text-align: left;
 
   }
+  .fotos {
+    display: flex;
+    }
+  
+.foto1 {
+  margin: 0 2rem 0 4.4rem;
+}
+.foto2 {
+  margin: 0 4.4rem 0 2rem;
+}
 
 }
