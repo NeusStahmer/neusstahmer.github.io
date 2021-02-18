@@ -255,6 +255,8 @@ p {
   display: none;
 }
 
+
+
 /* ----------------------- HOME ------------------ */
 
 .button2 {
@@ -311,6 +313,10 @@ h1 {
     max-width: none;
     }
 
+#navuno {
+      background-color: #0F0F0E;
+      color: #F8F9F6;
+    } 
 
   .fotos {
     display: flex;
