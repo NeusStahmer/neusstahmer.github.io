@@ -116,6 +116,7 @@ h2 {
   line-height: 1;
   padding: 0 2rem 2rem 2rem;
   text-align: center;
+  margin-left: -5rem;
 }
 
 h3 {
@@ -177,6 +178,7 @@ p {
 .row {
   position: relative;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 .row::after {
@@ -279,6 +281,58 @@ p {
   padding-bottom: 6rem;
   color: #F8F9F6;
 }
+
+/* ----------------------- PROJECTS ------------------ */
+.product-container {
+  position: relative;
+}
+
+.product {
+  position: absolute;
+  height: fit-content;
+  left: 50%;
+  transform: translateX(-50%);  
+}
+.marketing-container {
+  position: relative;
+  margin-top: 55rem;
+}
+.marketing {
+  position: absolute;
+  height: fit-content;
+  left: 50%;
+  transform: translateX(-50%);  
+}
+
+.btns {
+  background: #4a4a49;
+  border: none;
+  display: block;
+  line-height: 1;
+  min-width: 90rem;
+  padding: 1.7rem 0;
+  margin: 1rem 0;
+}
+.btns:hover {
+  background: #e96d6c;
+}
+
+
+
+.pname {
+color: #f8f9f6;
+font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
+font-size: 3.2rem;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.for {
+  color: #f8f9f6;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 400;
+  }
 
 
 /* ----------------------- RESPONSIVE ------------------ */
