@@ -2,117 +2,116 @@
  * Box sizing rules
  * https://developer.mozilla.org/es/docs/Web/CSS/box-sizing
  */
- *,
- *::before,
- *::after {
-   box-sizing: border-box;
- }
- 
- /* Remove default padding */
- ul,
- ol {
-   padding: 0;
- }
- 
- /* Remove default margin */
- body,
- h1,
- h2,
- h3,
- h4,
- p,
- ul,
- ol,
- li,
- figure,
- figcaption,
- blockquote,
- dl,
- dd {
-   margin: 0;
- }
- 
- /* Set core body defaults */
- body {
-   min-height: 100vh;
-   scroll-behavior: smooth;
-   text-rendering: optimizeSpeed;
-   line-height: 1.5;
- }
- 
- /* Remove list styles on ul, ol elements with a class attribute */
- ul,
- ol {
-   list-style: none;
- }
- 
- /* A elements that don't have a class get default styles */
- a:not([class]) {
-   text-decoration-skip-ink: auto;
- }
- 
- /* Make images easier to work with */
- img {
-   max-width: 100%;
-   display: block;
- }
- 
- /* Natural flow and rhythm in articles by default */
- article > * + * {
-   margin-top: 1em;
- }
- 
- /* Inherit fonts for inputs and buttons */
- input,
- button,
- textarea,
- select {
-   font: inherit;
- }
- 
- /* Remove all animations and transitions for people that prefer not to see them */
- @media (prefers-reduced-motion: reduce) {
-   * {
-     animation-duration: 0.01ms !important;
-     animation-iteration-count: 1 !important;
-     transition-duration: 0.01ms !important;
-     scroll-behavior: auto !important;
-   }
- }
- 
- html {
-    font-size: 62.5%; 
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
- body {
-    font-family: 'Cormorant Garamond', Helvetica, Arial, sans-serif;
-    background-color: #F8F9F6;
-    font-size: 2.4rem; 
-    color:#0F0F0E;
-    line-height: 1.3;
-  }
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
 
-  .mainabout {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }  
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Cormorant Garamond', Helvetica, Arial, sans-serif;
+  background-color: #f8f9f6;
+  font-size: 2.4rem;
+  color: #0f0f0e;
+  line-height: 1.3;
+}
+
+.mainabout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 h1 {
-    font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-    font-size: 14.0rem; 
-    color: #F8F9F6;
-    font-weight: 400; 
-    line-height: 1;
-    padding: 0 2rem 2rem 2rem;
-    text-align: left;
-    word-break: break-all;
-  }
+  font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
+  font-size: 14rem;
+  color: #f8f9f6;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0 2rem 2rem 2rem;
+  text-align: left;
+}
 
 h2 {
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 11.0rem; 
-  font-weight: 400; 
+  font-size: 11rem;
+  font-weight: 400;
   line-height: 1;
   padding: 0 2rem 2rem 2rem;
   text-align: center;
@@ -120,58 +119,28 @@ h2 {
 }
 
 h3 {
-    font-size: 2.9rem;
-    font-weight: 400; 
-    line-height: 1.2;
-    padding: 2rem 0;
-    
-  }
+  font-size: 2.9rem;
+  font-weight: 400;
+  line-height: 1.2;
+  padding: 2rem 0;
+}
 
-ul,
-li {
-    list-style: none;
-    display: flex;
-    padding: 0rem 2rem;
-    font-size: 2.0rem;
-    text-transform: uppercase;
-    font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-    color: #0F0F0E;
-    text-decoration: none;
-  }
-
-ul,
-li,
 a {
-    text-decoration: none;
-    color: #0F0F0E;
-  }
+  text-decoration: none;
+  color: #0f0f0e;
+}
 
 p {
   padding: 1.5rem 0;
 }
-.portada{
-  background-color: #0F0F0E;
+
+/* ----------------------- Utilities ------------------ */
+
+.hyphens {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
-
-.header {
-  width: 100%;
-  padding: 1.5rem 0 4rem 0;
-}
-
-.foto1 {
-  width: 100%;
-  padding: 2rem 0;
-  max-width: 83.5rem;
-}
-.foto2 {
-  width: 100%;
-  padding: 2rem 0;
-  max-width: 83.5rem;
-}
-
-
-
-
 
 /* ----------------------- H2 LINE ------------------ */
 
@@ -182,53 +151,57 @@ p {
 }
 
 .row::after {
-  background: #0F0F0E;
+  background: #0f0f0e;
   content: '';
   display: block;
   height: 1px;
   max-width: 73rem;
   position: absolute;
   width: 100%;
- 
 }
 /* ------------------------ MARGINS ---------------------- */
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 73rem;
-    padding: 2rem 2rem;
-  }
+  margin: 0 auto;
+  max-width: 73rem;
+  padding: 2rem 2rem;
+}
 
 .footer {
-    text-align: center;
-    margin-bottom: 10rem;
-    position: relative;
-  }
+  text-align: center;
+  margin-bottom: 10rem;
+  position: relative;
+}
 
-  .footer::before {
-    background: #0F0F0E;
-    content: '';
-    display: block;
-    height: 1px;
-    left: 50%;
-    max-width: 33rem;
-    position: absolute;
-    width: 100%;
-    transform: translateX(-50%);  
-  }
+.footer::before {
+  background: #0f0f0e;
+  content: '';
+  display: block;
+  height: 1px;
+  left: 50%;
+  max-width: 33rem;
+  position: absolute;
+  width: 100%;
+  transform: translateX(-50%);
+}
 
-  .atribute {
-    font-size: 2.5rem;
-    font-style: italic;
-    font-weight: 400; 
-    line-height: 1.2;
-    text-align: right;
-    color: #F8F9F6;
-  }
-  .description {
-    color: #F8F9F6;
-  }
+.attribute-container {
+  display: flex;
+  justify-content: flex-end;
+}
 
+.attribute {
+  display: block;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #f8f9f6;
+}
+
+.description {
+  color: #f8f9f6;
+}
 
 /* ----------------------- NAVIGATION ------------------ */
 .button {
@@ -236,16 +209,33 @@ p {
   border: 0;
   color: inherit;
   overflow: hidden;
-  padding:0;
+  padding: 0;
 }
+
 .navigation {
   display: none;
-  float: right;
-  padding-right: 2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 0rem 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0rem 2rem;
+}
+
+.nav-item a {
+  color: inherit;
 }
 
 .menu-open {
-  float:right;
+  float: right;
   padding-right: 2rem;
   background: none;
   border: 0;
@@ -257,14 +247,29 @@ p {
   display: none;
 }
 
-
-
 /* ----------------------- HOME ------------------ */
 
+.portada {
+  background-color: #0f0f0e;
+  position: relative;
+}
+
+.wave {
+  left: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.wave path {
+  fill: #0f0f0e;
+}
+
 .button2 {
-  background: #F8F9F6;
-  border: 1px solid #0F0F0E;
-  color: #0F0F0E;
+  background: #f8f9f6;
+  border: 1px solid #0f0f0e;
+  color: #0f0f0e;
   display: inline-block;
   font-size: 2.4rem;
   line-height: 1;
@@ -279,9 +284,10 @@ p {
   display: flex;
   margin: 0 6rem 0 2rem;
   padding-bottom: 6rem;
-  color: #F8F9F6;
+  color: #f8f9f6;
 }
 
+<<<<<<< HEAD
 /* ----------------------- PROJECTS ------------------ */
 .product-container {
   position: relative;
@@ -334,68 +340,94 @@ text-transform: uppercase;
   font-weight: 400;
   }
 
+=======
+/* ----------------------- FOTOS ------------------ */
+
+.fotos {
+  margin: 2rem 0;
+}
+
+.fotos-item {
+  max-width: 83.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.fotos-title {
+  font-size: 5rem;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.foto1 .fotos-title {
+  top: 2rem;
+}
+.foto2 .fotos-title {
+  bottom: 2rem;
+}
+>>>>>>> e55abfc1842917fa06daf41927393cc397c082bf
 
 /* ----------------------- RESPONSIVE ------------------ */
 
 @media (min-width: 60em) {
-
-  
   .navigation {
-    display: block;
-
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem 0 4rem 0;
   }
+
+  .navigation-dark {
+    background-color: #0f0f0e;
+    color: #f8f9f6;
+  }
+
   .menu-open {
     display: none;
   }
 
   h2 {
-  font-size: 18.0rem; 
-  text-align: left;
-
+    font-size: 18rem;
+    text-align: left;
   }
 
-h1 {
-  font-size: 19.0rem; 
-  line-height: 0.7;
-  text-align: center;
-  padding: 4rem 2rem 2rem 2rem;
-}
+  h1 {
+    font-size: 19rem;
+    line-height: 0.7;
+    text-align: center;
+    padding: 4rem 2rem 2rem 2rem;
+  }
   .description {
-    font-size: 2.8rem; 
+    font-size: 2.8rem;
     text-align: center;
     margin: 6rem;
     max-width: none;
-    }
-
-#navuno {
-      background-color: #0F0F0E;
-      color: #F8F9F6;
-    } 
+  }
 
   .fotos {
     display: flex;
-    }
-    .buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      margin-top: 4rem;
-      }
-  
-.foto1 {
-  margin: 0 2rem 0 4.4rem;
-}
-.foto2 {
-  margin: 0 4.4rem 0 2rem;
-}
-.arrow {
-  margin: -10rem 6rem 0 8rem;
-  padding-bottom: 6rem;
-}
-.projects{
-  margin: 6rem 0;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+  }
 
-}
-
-
+  .foto1 {
+    margin: 0 2rem 0 4.4rem;
+  }
+  .foto2 {
+    margin: 0 4.4rem 0 2rem;
+  }
+  .arrow {
+    margin: -10rem 6rem 0 8rem;
+    padding-bottom: 6rem;
+  }
+  .projects {
+    margin: 6rem 0;
+  }
 }
