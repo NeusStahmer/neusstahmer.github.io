@@ -287,7 +287,6 @@ p {
   color: #f8f9f6;
 }
 
-<<<<<<< HEAD
 /* ----------------------- PROJECTS ------------------ */
 .product-container {
   position: relative;
@@ -297,7 +296,7 @@ p {
   position: absolute;
   height: fit-content;
   left: 50%;
-  transform: translateX(-50%);  
+  transform: translateX(-50%);
 }
 .marketing-container {
   position: relative;
@@ -307,7 +306,7 @@ p {
   position: absolute;
   height: fit-content;
   left: 50%;
-  transform: translateX(-50%);  
+  transform: translateX(-50%);
 }
 
 .btns {
@@ -323,14 +322,12 @@ p {
   background: #e96d6c;
 }
 
-
-
 .pname {
-color: #f8f9f6;
-font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-font-size: 3.2rem;
-font-weight: 400;
-text-transform: uppercase;
+  color: #f8f9f6;
+  font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .for {
@@ -338,9 +335,8 @@ text-transform: uppercase;
   font-style: italic;
   font-size: 2rem;
   font-weight: 400;
-  }
+}
 
-=======
 /* ----------------------- FOTOS ------------------ */
 
 .fotos {
@@ -369,7 +365,6 @@ text-transform: uppercase;
 .foto2 .fotos-title {
   bottom: 2rem;
 }
->>>>>>> e55abfc1842917fa06daf41927393cc397c082bf
 
 /* ----------------------- RESPONSIVE ------------------ */
 
