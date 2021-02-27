@@ -361,9 +361,11 @@ p {
 
 .foto1 .fotos-title {
   bottom: 4rem;
+  text-transform: uppercase;
 }
 .foto2 .fotos-title {
   top: 4rem;
+  text-transform: uppercase;
 }
 
 /* ----------------------- RESPONSIVE ------------------ */
