@@ -360,10 +360,12 @@ p {
 }
 
 .foto1 .fotos-title {
+  margin-bottom: 1rem;
   bottom: 4rem;
   text-transform: uppercase;
 }
 .foto2 .fotos-title {
+  margin-top: 1rem;
   top: 4rem;
   text-transform: uppercase;
 }
