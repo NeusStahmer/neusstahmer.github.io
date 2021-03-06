@@ -123,7 +123,7 @@ h3 {
   font-size: 2.9rem;
   font-weight: 400;
   line-height: 1.2;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .project-title {
@@ -154,6 +154,7 @@ a {
 
 p {
   padding: 1.5rem 0;
+  font-size: 2.4rem;
 }
 
 /* ----------------------- Utilities ------------------ */
@@ -347,6 +348,63 @@ p {
   font-size: 2rem;
   font-weight: 400;
 }
+/* ----------------------- INDIVIDUAL PROJECT ------------------ */
+
+.mockuptext {
+  max-width: 60rem;
+  text-align: left;
+}
+
+
+.color1{
+  background: #FF674F;
+  width: 20%;
+  border: none;
+  display: block;
+  line-height: 1;
+  padding: 1.7rem 2rem;
+  color: #fff;
+  text-align: left;
+  font-size: 1.4rem;
+
+}
+.color2{
+  background: #010101;
+  width: 20%;
+  border: none;
+  display: block;
+  line-height: 1;
+  padding: 1.7rem 2rem;
+  color: #fff;
+  text-align: left;
+  font-size: 1.4rem;
+
+}
+
+.color3{
+  background: #4B4543;
+  width: 20%;
+  border: none;
+  display: block;
+  line-height: 1;
+  padding: 1.7rem 2rem;
+  color: #fff;
+  text-align: left;
+  font-size: 1.4rem;
+
+}
+.color4{
+  background: #F89E8F;
+  width: 40%;
+  border: none;
+  display: block;
+  line-height: 1;
+  padding: 1.7rem 2rem;
+  color: #fff;
+  text-align: left;
+  font-size: 1.4rem;
+
+}
 
 /* ----------------------- FOTOS ------------------ */
 
@@ -417,9 +475,36 @@ p {
     margin: 4rem;
     max-width: none;
   }
+  .mainproject {
+    margin: 0 6rem 0 6rem;
+  }
 
   .fotos {
     display: flex;
+  }
+  .mobile-mockup {
+    display: flex;
+    justify-content: space-between;
+    margin: 8rem 0;
+  }
+  
+
+  .section1{
+    margin: 8rem 0;
+  }
+  .section2 {
+    margin: 8rem 0;
+  }
+  .phone {
+    width: 33%;
+    padding: 0 3rem;
+  }
+
+  .colors {
+    display: flex;
+    align-items: stretch;
+    height: 20rem;
+    margin: 8rem 0;
   }
   .buttons {
     display: flex;
@@ -448,4 +533,6 @@ p {
     font-size: 2.9rem;
  
   }
+
+  
 }
