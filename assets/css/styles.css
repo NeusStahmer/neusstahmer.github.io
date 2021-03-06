@@ -304,7 +304,7 @@ p {
   border: none;
   display: block;
   line-height: 1;
-  min-width: 90rem;
+  min-width: 33rem;
   padding: 1.7rem 0;
   margin: 1rem 0;
 }
@@ -315,7 +315,7 @@ p {
 .pname {
   color: #f8f9f6;
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 3.2rem;
+  font-size: 2.9rem;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -418,5 +418,12 @@ p {
   }
   .projects {
     margin: 6rem 0;
+  }
+  .btns {
+    min-width: 90rem;
+  }
+  .pname {
+    font-size: 2.9rem;
+ 
   }
 }
