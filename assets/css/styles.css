@@ -114,8 +114,8 @@ h2 {
   font-weight: 400;
   line-height: 1;
   padding: 4rem 2rem 2rem 2rem;
-  text-align: center;
-  margin-left: -5rem;
+  text-align: left;
+  margin-left: -3rem;
 
 }
 
@@ -125,6 +125,27 @@ h3 {
   line-height: 1.2;
   padding: 2rem 0;
 }
+
+.project-title {
+  font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 4rem 2rem 1rem 2rem;
+  text-align: center;
+
+}
+.project-subtitle {
+  font-size: 2.9rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1;
+  padding: 0 2rem 6rem 2rem;
+  text-align: center;
+
+}
+
+
 
 a {
   text-decoration: none;
@@ -381,6 +402,7 @@ p {
   h2 {
     font-size: 18rem;
     text-align: left;
+    margin-left: -5rem;
   }
 
   h1 {
