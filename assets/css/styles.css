@@ -302,6 +302,15 @@ p {
   color: #0f0f0e;
 }
 
+.popup {
+  width: 15.0rem;
+  height: 15.0rem;
+  display: none;
+  margin: 0 6rem 0 2rem;
+  padding-bottom: 6rem;
+  color: #fff;
+}
+
 /* ----------------------- PROJECTS ------------------ */
 .product-container {
   position: relative;
