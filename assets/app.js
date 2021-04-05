@@ -9,7 +9,7 @@ popupMenuOpen.click(function () {
     popup.show();
   });
 
-    popupMenuClose.click(function () {
+popupMenuClose.click(function () {
       popup.hide();
   });
 

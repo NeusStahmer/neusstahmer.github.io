@@ -303,10 +303,11 @@ p {
 /* ----------------------- MENU MOBILE ------------------ */
 .popup {
   background: #D7FF95;
+  display: none;
   border: none;
   top: 0rem;
   left: 50%;
-  height: 60.0rem;
+  height: 90.0rem;
   width: 100%;
   transform: translateX(-50%);
   position: absolute;
