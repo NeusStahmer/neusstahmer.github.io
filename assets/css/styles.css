@@ -274,7 +274,43 @@ p {
   overflow: hidden;
 }
 
+ol, ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  padding: 20px 0 20px;
+  vertical-align: middle;
+}
 
+
+a {
+  position: relative;
+  display: block;
+  padding: 8px 0;
+  transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+  color: #D7FF95;
+}
+a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #D7FF95;
+  transform-origin: right top;
+  transform: scale(0, 1);
+  transition: color 0.1s,transform 0.4s ease-out;
+}
+a:active::before {
+  background-color: #D7FF95;
+}
+a:hover::before, a:focus::before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
 
 /* ----------------------- HOME ------------------ */
 
