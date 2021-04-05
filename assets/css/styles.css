@@ -106,7 +106,7 @@ h1 {
   color: #0f0f0e;
   font-weight: 400;
   line-height: 1;
-  padding: 0 2rem 2rem 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   text-align: left;
 }
 
@@ -257,14 +257,12 @@ p {
   overflow: hidden;
 }
 
-.menu-close {
-  display: none;
-}
+
 
 /* ----------------------- HOME ------------------ */
 
 .portada {
-  background-color: #e96d6c;
+  
   position: relative;
 }
 
@@ -277,7 +275,7 @@ p {
 }
 
 .wave path {
-  fill: #e96d6c;
+  fill: #D7FF95;
 }
 
 
@@ -302,13 +300,38 @@ p {
   color: #0f0f0e;
 }
 
+/* ----------------------- MENU MOBILE ------------------ */
 .popup {
-  width: 15.0rem;
-  height: 15.0rem;
-  display: none;
-  margin: 0 6rem 0 2rem;
-  padding-bottom: 6rem;
-  color: #fff;
+  background: #D7FF95;
+  border: none;
+  top: 0rem;
+  left: 50%;
+  height: 60.0rem;
+  width: 100%;
+  transform: translateX(-50%);
+  position: absolute;
+  padding: 2rem;
+  
+}
+
+.menu-close {
+  float: right;
+  background: inherit;
+  border: 0;
+  color: inherit;
+  overflow: hidden;
+  
+}
+
+.nav-mob {
+  list-style: none;
+  padding: 2rem 2rem;
+  font-size: 2.4rem;
+  line-height: 7rem;
+  text-transform: uppercase;
+  font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  
 }
 
 /* ----------------------- PROJECTS ------------------ */
@@ -446,6 +469,7 @@ p {
 
 .fotos-title {
   font-size: 4rem;
+  color: #4A4A49;
   left: 0;
   line-height: 1;
   position: absolute;
@@ -475,7 +499,7 @@ p {
   }
 
   .navigation-dark {
-    background-color: #e96d6c;
+    background-color: #D7FF95;
     color: #0f0f0e;
   }
 

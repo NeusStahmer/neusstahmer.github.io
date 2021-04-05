@@ -8,8 +8,7 @@
         <link rel="shortcut icon" type="image/jpg" href="assets/img/fav1.png" />
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Cormorant+Unicase&display=swap"
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Cormorant+Unicase&display=swap"
             rel="stylesheet">
         <link href="assets/css/styles.css" rel="stylesheet" />
 
@@ -17,8 +16,8 @@
 
     <body>
         <header class="header">
-            <div>
-                <nav class="navigation navigation-dark">
+            <div class="navigation-dark">
+                <nav class="navigation ">
                     <ul class="nav-list">
                         <li class="nav-item">
                             <a class="nav-link" href="/">Home</a>
@@ -41,19 +40,11 @@
                         <line y1="17.5" x2="39" y2="17.5" stroke="#0F0F0E" stroke-width="3"/>
                         </svg>
                 </button>
-                <button class="menu-close js-close">
-                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <line x1="0.353553" y1="0.646447" x2="13.0815" y2="13.3744"
-                            stroke="black" />
-                        <line x1="0.646447" y1="13.6464" x2="13.3744" y2="0.918525"
-                            stroke="black" />
-                    </svg>
-                </button>
+                
             </div>
         </header>
         <main>
-            <section class="portada">
+            <section class="titulo portada">
                 <div class="name">
                     <h1 lang="de" class="hyphens">
                         Neus Stahmer
@@ -129,10 +120,29 @@
         </main>
 
         <div class="popup js-popup">
-
-            Este es un pop up
-            <button class="close">Cerrar popup</button>
-
+            <button class="menu-close js-close">
+                <svg width="25" height="25" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0.353553" y1="0.646447" x2="13.0815" y2="13.3744"
+                        stroke="#0F0F0E" stroke-width="1" />
+                    <line x1="0.646447" y1="13.6464" x2="13.3744" y2="0.918525"
+                        stroke="#0F0F0E" stroke-width="1"/>
+                </svg>
+            </button>
+            <ul class="nav-mob">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/journal">Photo-Journal</a>
+                </li>
+            </ul>
         </div>
 
 
