@@ -274,14 +274,7 @@ p {
   overflow: hidden;
 }
 
-ol, ul {
-  list-style: none;
-}
-li {
-  display: inline-block;
-  padding: 20px 0 20px;
-  vertical-align: middle;
-}
+
 
 
 .nav-link {
@@ -443,6 +436,7 @@ li {
   width: 80%;
 }
 
+
 .colors {
   margin: 3rem 2rem;
 }
@@ -600,18 +594,11 @@ li {
     font-size: 5rem;
   }
 
-  .mobile-mockup {
-    display: flex;
-    justify-content:center;
-    margin: 8rem 0;
-  }
 
   .section1{
     margin: 8rem 0;
   }
-  .section2 {
-    margin: 8rem 0;
-  }
+  
   .phone {
     width: 33%;
     padding: 0 3rem;
