@@ -94,6 +94,7 @@ body {
   
 }
 
+
 .mainabout {
   display: flex;
   flex-wrap: wrap;
@@ -103,7 +104,7 @@ body {
 h1 {
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
   font-size: 14rem;
-  color: #0f0f0e;
+  color: #F8F9F6;
   font-weight: 400;
   line-height: 1;
   padding: 4rem 2rem 2rem 2rem;
@@ -168,6 +169,22 @@ p {
   hyphens: auto;
 }
 
+.fotos-title {
+  position: relative;
+  
+}
+
+.fotos-title:before {
+      border-top: 20px solid #D7FF95;
+      content:"";
+      margin: 0 auto; 
+      position: absolute; 
+      top: 50%; left: 0; right: 0; bottom: 0;
+      width: 85%;
+      z-index: -1;
+  }
+
+
 /* ----------------------- H2 LINE ------------------ */
 
 .row {
@@ -210,11 +227,11 @@ p {
   font-style: italic;
   font-weight: 400;
   line-height: 1.2;
-  color: #0f0f0e;
+  color: #F8F9F6;
 }
 
 .description {
-  color: #0f0f0e;
+  color: #F8F9F6;
 }
 
 /* ----------------------- NAVIGATION ------------------ */
@@ -262,22 +279,13 @@ p {
 /* ----------------------- HOME ------------------ */
 
 .portada {
+  background: #0f0f0e;
   
-  position: relative;
 }
 
 .wave {
-  left: 0;
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  z-index: 0;
+  display: none;
 }
-
-.wave path {
-  fill: #D7FF95;
-}
-
 
 .button2 {
   background: #f8f9f6;
@@ -297,7 +305,7 @@ p {
   display: flex;
   margin: 0 6rem 0 2rem;
   padding-bottom: 6rem;
-  color: #0f0f0e;
+  color: #F8F9F6;
 }
 
 /* ----------------------- MENU MOBILE ------------------ */
@@ -470,7 +478,7 @@ p {
 
 .fotos-title {
   font-size: 4rem;
-  color: #4A4A49;
+  color: #0f0f0e;
   left: 0;
   line-height: 1;
   position: absolute;
@@ -500,12 +508,29 @@ p {
   }
 
   .navigation-dark {
-    background-color: #D7FF95;
-    color: #0f0f0e;
+    background-color: #0f0f0e;
+    color: #F8F9F6;
   }
 
   .menu-open {
     display: none;
+  }
+
+  .portada {
+    background: #0f0f0e;
+    position: relative;
+  }
+  .wave {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .wave path {
+    fill: #0f0f0e;
   }
 
   h2 {
@@ -516,7 +541,7 @@ p {
 
   h1 {
     font-size: 14rem;
-    line-height: 0.7;
+    line-height: 1;
     text-align: center;
     padding: 4rem 2rem 2rem 2rem;
   }
@@ -529,6 +554,7 @@ p {
   .mainproject {
     margin: 0 6rem 0 6rem;
   }
+
 
   .fotos {
     display: flex;
