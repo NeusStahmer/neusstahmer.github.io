@@ -437,61 +437,6 @@ p {
 }
 
 
-.colors {
-  margin: 3rem 2rem;
-}
-
-.color1{
-  background: #FF674F;
-  width: 20%;
-  border: none;
-  display: block;
-  line-height: 1;
-  padding: 1.7rem 2rem;
-  color: #fff;
-  text-align: left;
-  font-size: 1.4rem;
-
-}
-.color2{
-  background: #010101;
-  width: 20%;
-  border: none;
-  display: block;
-  line-height: 1;
-  padding: 1.7rem 2rem;
-  color: #fff;
-  text-align: left;
-  font-size: 1.4rem;
-
-}
-
-.color3{
-  background: #4B4543;
-  width: 30%;
-  border: none;
-  display: block;
-  line-height: 1;
-  padding: 1.7rem 2rem;
-  color: #fff;
-  text-align: left;
-  font-size: 1.4rem;
-
-}
-.color4{
-  background: #F89E8F;
-  width: 40%;
-  border: none;
-  display: block;
-  line-height: 1;
-  padding: 1.7rem 2rem;
-  color: #fff;
-  text-align: left;
-  font-size: 1.4rem;
-
-}
-
-
 
 /* ----------------------- FOTOS ------------------ */
 
