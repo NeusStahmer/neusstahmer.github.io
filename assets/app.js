@@ -13,6 +13,5 @@ popupMenuClose.click(function () {
       popup.hide();
   });
 
-  $('.slider').slick();
 
 });
