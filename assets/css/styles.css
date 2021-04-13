@@ -588,3 +588,15 @@ p {
 
   
 }
+
+@media (max-width: 574px) {
+.name-1::after {
+  content: "-";
+}
+
+.name-2 {
+  display: block;
+}
+  
+}
+
