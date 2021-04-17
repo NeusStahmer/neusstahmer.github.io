@@ -473,6 +473,23 @@ p {
   text-transform: uppercase;
 }
 
+/* ----------------------- JOURNAL ------------------ */
+
+.slider{
+  margin: 15px 20px 250px;
+  
+}
+
+.slick-prev,
+.slick-next {
+  border: none;
+}
+
+.img {
+  margin: 15px 10px;
+  max-height: 450px;
+}
+
 /* ----------------------- RESPONSIVE ------------------ */
 
 @media (min-width: 60em) {
