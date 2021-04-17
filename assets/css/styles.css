@@ -461,6 +461,7 @@ p {
 
 .slider{
   margin: 15px 20px 250px;
+  max-height: 350px;
 
 }
 
@@ -469,25 +470,14 @@ p {
 .slick-next {
   border: none;
   outline: none;
-  color: #F8F9F6;
+  color: #0f0f0e;
   background-color: inherit;
   
-}
-.slick-prev:before {
-  content: "<<";
-  color: #0f0f0e;
-  font-size: 30px;
-}
-
-.slick-next:before {
-  content: ">>";
-  color: #0f0f0e;
-  font-size: 30px;
 }
 
 .img {
   margin: 15px 10px;
-  max-height: 280px;
+  min-width: fit-content;
   box-align: center;
   outline: none;
 }
@@ -625,7 +615,12 @@ p {
     font-size: 2.9rem;
  
   }
-
+  .img {
+    
+    max-height: 350px;
+    box-align: center;
+    
+  }
   
 }
 
