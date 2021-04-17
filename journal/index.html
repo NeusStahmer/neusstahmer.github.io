@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Photo-Journal</title>
+    <title>Journal</title>
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     
@@ -31,7 +31,7 @@
                 <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/journal">Photo-Journal</a>
+                <a class="nav-link" href="/journal">Journal</a>
             </li>
         </ul>
     </nav>
@@ -50,12 +50,12 @@
         <section class="titulo">
             <div class="row">
             <h2>
-            Photo-Journal
+            Journal
             </h2>
             </div>
         </section>
 
-        <div class="slider">
+        <div class="slider js-slider">
             <div class="img"><img src="/assets/img/foto1.jpg"></div>
             <div class="img"><img src="/assets/img/foto2.jpg"></div>
             <div class="img"><img src="/assets/img/foto3.jpg"></div>
@@ -126,15 +126,16 @@
     <script>
         $(document).ready(function () {
             
-            $('.slider').slick({
+            $('.js-slider').slick({
   
   infinite: true,
   speed: 900,
   slidesToShow: 1,
   centerMode: true,
   variableWidth: true
+  
 });
-        
+
 		
         });
 

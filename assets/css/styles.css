@@ -116,9 +116,9 @@ h2 {
   font-size: 11rem;
   font-weight: 400;
   line-height: 1;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 3rem 2rem 2rem 2rem;
   text-align: left;
-  margin-left: -3rem;
+  margin-left: -2rem;
 
 }
 
@@ -185,23 +185,7 @@ p {
   }
 
 
-/* ----------------------- H2 LINE ------------------ */
 
-.row {
-  position: relative;
-  width: 100%;
-  margin-bottom: 3rem;
-}
-
-.row::after {
-  background: #0f0f0e;
-  content: '';
-  display: block;
-  height: 1px;
-  max-width: 73rem;
-  position: absolute;
-  width: 100%;
-}
 /* ------------------------ MARGINS ---------------------- */
 
 .wrapper {
@@ -480,11 +464,25 @@ p {
 
 }
 
+
 .slick-prev,
 .slick-next {
   border: none;
   outline: none;
+  color: #F8F9F6;
   background-color: inherit;
+  
+}
+.slick-prev:before {
+  content: "<<";
+  color: #0f0f0e;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  content: ">>";
+  color: #0f0f0e;
+  font-size: 30px;
 }
 
 .img {
@@ -516,6 +514,10 @@ p {
     background: #0f0f0e;
     position: relative;
   }
+  .slider{
+    margin: 15px 20px 250px;
+  
+  }
   .rectangle {
     display: block;
     left: 0;
@@ -532,9 +534,10 @@ p {
   }
 
   h2 {
-    font-size: 18rem;
+    font-size: 16rem;
     text-align: left;
-    margin-left: -5rem;
+    margin-left: -2rem;
+    padding-top: 0rem;
   }
 
   h1 {
@@ -553,7 +556,23 @@ p {
     margin: 0 6rem 0 6rem;
   }
 
+/* ----------------------- H2 LINE ------------------ */
 
+.row {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.row::after {
+  background: #0f0f0e;
+  content: '';
+  display: block;
+  height: 1px;
+  max-width: 73rem;
+  position: absolute;
+  width: 100%;
+}
   .fotos {
     display: flex;
     margin-bottom: 2rem;
