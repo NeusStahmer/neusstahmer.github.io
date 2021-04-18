@@ -103,11 +103,11 @@ body {
 
 h1 {
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 14rem;
+  font-size: 13rem;
   color: #F8F9F6;
   font-weight: 400;
   line-height: 1;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 7rem 2rem 2rem 2rem;
   text-align: left;
 }
 
@@ -216,6 +216,8 @@ p {
 
 .description {
   color: #F8F9F6;
+  font-size: 2.4rem;
+  margin-top: 6rem;
 }
 
 /* ----------------------- NAVIGATION ------------------ */
@@ -349,9 +351,9 @@ p {
 
 .nav-mob {
   list-style: none;
-  padding: 2rem 2rem;
-  font-size: 2.4rem;
-  line-height: 7rem;
+  padding: 4rem 2rem;
+  font-size: 2.8rem;
+  line-height: 9rem;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
@@ -544,8 +546,9 @@ p {
     padding: 4rem 2rem 2rem 2rem;
   }
   .description {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     text-align: center;
+    font-weight: lighter;
     margin: 4rem;
     max-width: none;
   }
