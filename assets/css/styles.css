@@ -180,7 +180,7 @@ p {
       margin: 0 auto; 
       position: absolute; 
       top: 50%; left: 0; right: 0; bottom: 0;
-      width: 65%;
+      width: 75%;
       z-index: -1;
   }
 
@@ -362,7 +362,9 @@ p {
 }
 
 .divider {
-  border: 1px solid #f3f3f3;
+  background-color: #b8b8b8;
+  height: 1px;
+  padding: 0px 20px;
   
 }
 
