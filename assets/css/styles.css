@@ -113,11 +113,11 @@ h1 {
 
 h2 {
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 8rem;
+  font-size: 7rem;
   font-weight: 400;
   line-height: 1;
-  padding: 3rem 2rem 2rem 2rem;
-  text-align: left;
+  padding: 8rem 2rem 2rem 2rem;
+  text-align: center;
   margin-left: -2rem;
 
 }
@@ -180,7 +180,7 @@ p {
       margin: 0 auto; 
       position: absolute; 
       top: 50%; left: 0; right: 0; bottom: 0;
-      width: 85%;
+      width: 65%;
       z-index: -1;
   }
 
@@ -256,6 +256,7 @@ p {
   border: 0;
   color: inherit;
   overflow: hidden;
+  outline: none;
 }
 
 
@@ -323,7 +324,7 @@ p {
 
 /* ----------------------- MENU MOBILE ------------------ */
 .popup {
-  background: #D7FF95;
+  background: #f8f9f6;
   display: none;
   border: none;
   top: 0rem;
@@ -342,6 +343,7 @@ p {
   border: 0;
   color: inherit;
   overflow: hidden;
+  outline: none;
   
 }
 
@@ -350,9 +352,15 @@ p {
   padding: 2rem 2rem;
   font-size: 2.4rem;
   line-height: 7rem;
+  text-align: center;
   text-transform: uppercase;
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
   text-decoration: none;
+  
+}
+
+.divider {
+  border: 1px solid #f3f3f3;
   
 }
 
@@ -436,7 +444,7 @@ p {
 }
 
 .fotos-title {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #0f0f0e;
   left: 0;
   line-height: 1;

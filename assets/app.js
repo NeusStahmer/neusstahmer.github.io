@@ -6,11 +6,11 @@ var popupMenuClose = $('.js-close');
 
 
 popupMenuOpen.click(function () {
-    popup.show();
+    popup.fadeIn(300);
   });
 
 popupMenuClose.click(function () {
-      popup.hide();
+      popup.fadeOut(300);
   });
 
 
