@@ -192,7 +192,7 @@ p {
 }
 
 .fotos-title:before {
-      border-top: 20px solid #D7FF95;
+      border-top: 20px solid #FF6968;
       content:"";
       margin: 0 auto; 
       position: absolute; 
@@ -286,7 +286,7 @@ p {
   display: block;
   padding: 8px 0;
   transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-  color: #D7FF95;
+  color: #FF6968;
 }
 .nav-link::before {
   content: '';
@@ -296,13 +296,13 @@ p {
   left: 0;
   height: 1px;
   width: 100%;
-  background-color: #D7FF95;
+  background-color: #FF6968;
   transform-origin: right top;
   transform: scale(0, 1);
   transition: color 0.1s,transform 0.4s ease-out;
 }
 .nav-link:active::before {
-  background-color: #D7FF95;
+  background-color: #FF6968;
 }
 .nav-link:hover::before, a:focus::before {
   transform-origin: left top;
