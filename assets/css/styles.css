@@ -113,10 +113,10 @@ body {
 
 h1 {
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 400;
   line-height: 1;
-  padding: 8rem 2rem 1rem 2rem;
+  padding: 7rem 2rem 1rem 2rem;
   text-align: center;
 
 }
@@ -192,12 +192,12 @@ p {
 }
 
 .fotos-title:before {
-      border-top: 20px solid #FF6968;
+      border-top: 25px solid #FF8F8E;
       content:"";
       margin: 0 auto; 
       position: absolute; 
       top: 50%; left: 0; right: 0; bottom: 0;
-      width: 75%;
+      width: 90%;
       z-index: -1;
   }
 
@@ -281,33 +281,7 @@ p {
 
 
 
-.nav-link {
-  position: relative;
-  display: block;
-  padding: 8px 0;
-  transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-  color: #FF6968;
-}
-.nav-link::before {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 3px;
-  left: 0;
-  height: 1px;
-  width: 100%;
-  background-color: #FF6968;
-  transform-origin: right top;
-  transform: scale(0, 1);
-  transition: color 0.1s,transform 0.4s ease-out;
-}
-.nav-link:active::before {
-  background-color: #FF6968;
-}
-.nav-link:hover::before, a:focus::before {
-  transform-origin: left top;
-  transform: scale(1, 1);
-}
+
 
 /* ----------------------- HOME ------------------ */
 
@@ -417,7 +391,7 @@ p {
   margin: 1rem 0;
 }
 .btns:hover {
-  background: #e96d6c;
+  background: #FF7776;
 }
 
 .pname {
@@ -523,6 +497,39 @@ p {
     background-color: #0f0f0e;
     color: #F8F9F6;
   }
+
+
+
+  .nav-link {
+    position: relative;
+    display: block;
+    padding: 8px 0;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #FF7776;
+  }
+  .nav-link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #FF7776;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.4s ease-out;
+  }
+  .nav-link:active::before {
+    background-color: #FF7776;
+  }
+  .nav-link:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
+
+
+
 
   .menu-open {
     display: none;
