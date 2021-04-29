@@ -372,9 +372,10 @@ p {
 }
 .marketing-container {
   position: relative;
-  margin-top: 55rem;
+  margin-top: 45rem;
 }
 .marketing {
+  padding-bottom: 25rem;
   position: absolute;
   height: fit-content;
   left: 50%;
@@ -424,7 +425,7 @@ p {
 }
 
 .formats {
-  font-size: 4.4rem;
+  font-size: 3.4rem;
   text-align: center;
 }
 
@@ -632,7 +633,7 @@ p {
 
 
   .section1{
-    margin: 8rem 0;
+    margin: 6.4rem 0;
   }
   
   .phone {
