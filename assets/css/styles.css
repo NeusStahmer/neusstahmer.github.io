@@ -409,6 +409,25 @@ p {
   font-size: 2rem;
   font-weight: 400;
 }
+
+.email {
+  margin: 0 auto;
+  max-width: 83rem;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+
+.valign {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center
+}
+
+.emailarrow {
+  display: none;
+}
+
 /* ----------------------- INDIVIDUAL PROJECT ------------------ */
 
 .mockuptext {
@@ -538,7 +557,9 @@ p {
     transform: scale(1, 1);
   }
 
-
+  .emailarrow {
+    display: block;
+  }
 
 
   .menu-open {
