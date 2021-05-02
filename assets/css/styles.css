@@ -116,7 +116,7 @@ h1 {
   font-size: 5rem;
   font-weight: 400;
   line-height: 1;
-  padding: 8rem 2rem 1rem 2rem;
+  padding: 9rem 2rem 3rem 2rem;
   text-align: center;
 
 }
@@ -126,7 +126,7 @@ h2 {
   font-weight: 400;
   line-height: 1.2;
   padding: 1rem 0;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 
@@ -305,8 +305,8 @@ p {
 
 }
 .arrow {
-  
-  margin: 2rem 6rem;
+  text-align: center;
+  margin: 2rem 0;
   padding-bottom: 6rem;
   color: #F8F9F6;
 }
@@ -368,7 +368,7 @@ p {
 }
 .marketing-container {
   position: relative;
-  margin-top: 40rem;
+  margin-top: 30rem;
 }
 .marketing {
   padding-bottom: 25rem;
@@ -393,7 +393,6 @@ p {
 
 .pname {
   color: #0f0f0e;
-  
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
   font-size: 2.6rem;
   font-weight: 400;
@@ -473,11 +472,11 @@ p {
   top: 4rem;
   text-transform: uppercase;
   font-size: 2.6rem;
-  left:25%;
+  left:20%;
   line-height: 1;
   position: absolute;
   text-align: center;
-  width: 50%;
+  width: 60%;
   z-index: 1;
   background: #FFC2B7;
   border: 1px solid #0f0f0e;
@@ -493,11 +492,11 @@ p {
   text-transform: uppercase;
   font-size: 2.6rem;
   right: -50%;
-  left: 25%;
+  left: 20%;
   line-height: 1;
   position: absolute;
   text-align: center;
-  width: 50%;
+  width: 60%;
   z-index: 1;
   background: #FFC2B7;
   border: 1px solid #0f0f0e;
@@ -683,6 +682,10 @@ p {
     font-size: 2.8rem;
   }
 
+  .marketing-container {
+    position: relative;
+    margin-top: 40rem;
+  }
 
   .section1{
     margin: 6.4rem auto;
