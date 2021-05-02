@@ -107,7 +107,7 @@ body {
   color: #F8F9F6;
   font-weight: 400;
   line-height: 1;
-  padding: 8rem 2rem 2rem 2rem;
+  padding: 11rem 2rem 2rem 2rem;
   text-align: left;
 }
 
@@ -645,12 +645,12 @@ p {
     font-size: 14rem;
     line-height: 1;
     text-align: center;
-    padding: 4rem 2rem 2rem 2rem;
+    padding: 3rem 2rem 2rem 2rem;
   }
   .description {
     text-align: center;
     font-weight: lighter;
-    margin: 4rem;
+    margin: 0rem;
     max-width: none;
   }
   .mainproject {
