@@ -88,7 +88,7 @@ html {
 body {
   font-family: 'Cormorant Garamond', Helvetica, Arial, sans-serif;
   background-color: #f8f9f6;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #0f0f0e;
   line-height: 1.3;
   
@@ -113,10 +113,10 @@ body {
 
 h1 {
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 400;
   line-height: 1;
-  padding: 7rem 2rem 1rem 2rem;
+  padding: 8rem 2rem 1rem 2rem;
   text-align: center;
 
 }
@@ -140,7 +140,7 @@ h3 {
 
 .titulodos {
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 400;
   line-height: 1;
   padding: 8rem 2rem 2rem 2rem;
@@ -157,7 +157,7 @@ h3 {
 
 }
 .project-subtitle {
-  font-size: 2.9rem;
+  font-size: 2.6rem;
   font-weight: 400;
   font-style: italic;
   line-height: 1;
@@ -219,7 +219,7 @@ p {
 
 .attribute {
   display: block;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-style: italic;
   font-weight: 400;
   line-height: 1.2;
@@ -249,7 +249,7 @@ p {
   list-style: none;
   display: flex;
   padding: 0rem 2rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
   text-decoration: none;
@@ -367,7 +367,7 @@ p {
 }
 .marketing-container {
   position: relative;
-  margin-top: 45rem;
+  margin-top: 40rem;
 }
 .marketing {
   padding-bottom: 25rem;
@@ -383,7 +383,7 @@ p {
   display: block;
   line-height: 1;
   min-width: 33rem;
-  padding: 1.7rem 0;
+  padding: 1.7rem 2rem;
   margin: 1rem 0;
 }
 .btns:hover {
@@ -393,7 +393,7 @@ p {
 .pname {
   color: #f8f9f6;
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
-  font-size: 2.9rem;
+  font-size: 2.6rem;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -463,7 +463,7 @@ p {
 }
 
 .fotos-title {
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: #0f0f0e;
   left: 0;
   line-height: 1;
@@ -522,7 +522,11 @@ p {
     color: #F8F9F6;
   }
 
-
+  .project-subtitle {
+    font-size: 2.8rem;
+    
+  
+  }
 
   .nav-link {
     position: relative;
@@ -585,7 +589,7 @@ p {
   }
 
   h1 {
-    font-size: 16rem;
+    font-size: 14rem;
     text-align: left;
     margin-left: -2rem;
     padding-top: 0rem;
@@ -599,7 +603,7 @@ p {
   }
 
   .titulodos {
-    font-size: 16rem;
+    font-size: 14rem;
     text-align: left;
     margin-left: -2rem;
     padding-top: 0rem;
@@ -644,7 +648,7 @@ p {
     margin-bottom: 2rem;
   }
   .fotos-title {
-    font-size: 5rem;
+    font-size: 2.8rem;
   }
 
 
@@ -687,10 +691,10 @@ p {
     padding-left: 2rem;
   }
   .btns {
-    min-width: 90rem;
+    min-width: 60rem;
   }
   .pname {
-    font-size: 2.9rem;
+    font-size: 2.8rem;
  
   }
   .img {
