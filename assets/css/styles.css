@@ -379,8 +379,8 @@ p {
 }
 
 .btns {
-  background: #4a4a49;
-  border: none;
+  background-color: #f8f9f6;
+  border: 1px solid #0f0f0e;
   display: block;
   line-height: 1;
   min-width: 33rem;
@@ -392,7 +392,8 @@ p {
 }
 
 .pname {
-  color: #f8f9f6;
+  color: #0f0f0e;
+  
   font-family: 'Cormorant Unicase', Helvetica, Arial, sans-serif;
   font-size: 2.6rem;
   font-weight: 400;
@@ -400,7 +401,7 @@ p {
 }
 
 .for {
-  color: #f8f9f6;
+  color: #0f0f0e;
   font-style: italic;
   font-size: 2rem;
   font-weight: 400;
@@ -465,26 +466,54 @@ p {
   width: 100%;
 }
 
-.fotos-title {
-  font-size: 2.6rem;
-  color: #0f0f0e;
-  left: 0;
-  line-height: 1;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  z-index: 1;
-}
+
 
 .foto1 .fotos-title {
   margin-bottom: 1rem;
-  bottom: 4rem;
+  top: 4rem;
   text-transform: uppercase;
+  font-size: 2.6rem;
+  left:25%;
+  line-height: 1;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  z-index: 1;
+  background: #FFC2B7;
+  border: 1px solid #0f0f0e;
+  color: #0f0f0e;
+  padding: 1.5rem 0;
+  margin: 1rem 0;
+  text-align: center;
+  
 }
 .foto2 .fotos-title {
   margin-bottom: 1rem;
-  top: 4rem;
+  bottom: 4rem;
   text-transform: uppercase;
+  font-size: 2.6rem;
+  right: -50%;
+  left: 25%;
+  line-height: 1;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  z-index: 1;
+  background: #FFC2B7;
+  border: 1px solid #0f0f0e;
+  color: #0f0f0e;
+  padding: 1.5rem 0;
+  margin: 1rem 0;
+  text-align: center;
+  
+}
+
+.fotos-title:hover {
+  background: #FFA750;
+}
+
+.button2:hover {
+  background: #FFA750;
 }
 
 /* ----------------------- JOURNAL ------------------ */
