@@ -210,6 +210,7 @@ p {
   margin: 0 auto;
   text-align: center;
   position: relative;
+  padding-bottom: 8rem;
 }
 
 .attribute-container {
@@ -447,7 +448,9 @@ p {
   padding-bottom: 4rem;
 }
 
-
+.carousel {
+  padding-top: 6rem;
+}
 
 /* ----------------------- FOTOS ------------------ */
 
