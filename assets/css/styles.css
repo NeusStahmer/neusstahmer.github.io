@@ -40,7 +40,11 @@ body {
   line-height: 1.5;
 }
 
-
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none;
+}
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -525,6 +529,7 @@ padding: 0 2rem;
 
 .list {
   margin-left: 2rem;
+  list-style: disc;
 }
 
 .section1{
