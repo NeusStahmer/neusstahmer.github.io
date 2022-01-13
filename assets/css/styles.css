@@ -184,12 +184,13 @@ p
 }
 
 
-li
+.dot-list
 {
   font-size: 1.6rem;
   line-height: 2.6rem;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 300;
+  margin-left: 1rem;
 }
 
 
@@ -395,7 +396,7 @@ li
 .insight2 {
   font-size: 1.4rem;
   line-height: 2.2rem;
-  width: 40rem;
+  width: 80%;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 
   
@@ -413,7 +414,7 @@ li
 .opportunity2 {
   font-size: 1.4rem;
   line-height: 2.2rem;
-  width: 40rem;
+  width: 80%;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
  
   
@@ -426,12 +427,12 @@ li
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px 0px;
-  width: 50%;
+  padding: 20px 0px;
+  width: 80%;
 }
 
 .brand-img {
-  width: 70%;
+  width: 80%;
   padding: 0px;
 }
 
@@ -507,7 +508,7 @@ li
 
 .mockuptext,
 .mockupimg {
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
   display: grid;
   text-align: left;
   grid-column-gap: 0px;
@@ -529,7 +530,7 @@ padding: 0 2rem;
 
 .list {
   margin-left: 2rem;
-  list-style: disc;
+  
 }
 
 .section1{
@@ -770,6 +771,15 @@ padding: 0 2rem;
   ;
 }
 
+.cover-image,
+.brand-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0px;
+  width: 50%;
+}
+
 .product-img {
   padding: 4rem 0rem;
 }
@@ -822,7 +832,14 @@ padding: 0 2rem;
     padding: 3.rem 0;
   }
 
- 
+  
+
+.insight2,
+.opportunity2{
+
+  width: 40rem;
+
+}
   
   .phone {
     width: 33%;
