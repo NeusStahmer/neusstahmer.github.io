@@ -572,6 +572,22 @@ padding: 0 2rem;
   width: 100%;
 }
 
+.fotos-text {
+  margin-bottom: 4rem;
+  top: 1rem;
+  font-size: 2rem;
+  left:20%;
+  line-height: 1.5;
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  z-index: 1;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  margin: 1rem 0;
+  text-align: left;
+  
+}
 
 
 .foto1 .fotos-title {
