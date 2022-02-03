@@ -238,7 +238,7 @@ p
 
 .fotos-title {
   position: relative;
-  background: #fd9d8c;
+  background: #f7b7fc;
   padding: 1rem;
   box-shadow: -8px 8px 20px rgba(44, 44, 44, 0.1);
   
@@ -496,7 +496,8 @@ p
   margin: 1rem 0;
 }
 .btns:hover {
-  background: #fd9d8c;
+  background: #f7b7fc;
+  
 }
 
 .pname {
@@ -518,7 +519,7 @@ p
   margin: 0 auto;
   max-width: 90rem;
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
 }
 
 
@@ -580,7 +581,7 @@ padding: 0 2rem;
 }
 
 .mkt {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .carousel {
@@ -691,7 +692,7 @@ padding: 0 2rem;
     display: block;
     padding: 8px 0;
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-    color: #fd9d8c;
+    color: #f7b7fc;
   }
   .nav-link::before {
     content: '';
@@ -701,13 +702,13 @@ padding: 0 2rem;
     left: 0;
     height: 1px;
     width: 100%;
-    background-color: #fd9d8c;
+    background-color: #f7b7fc;
     transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s,transform 0.4s ease-out;
   }
   .nav-link:active::before {
-    background-color: #fd9d8c;
+    background-color: #f7b7fc;
   }
   .nav-link:hover::before, a:focus::before {
     transform-origin: left top;
@@ -746,7 +747,7 @@ padding: 0 2rem;
   h1 {
     font-size: 14rem;
     text-align: left;
-    padding-top: 0rem;
+    padding-top: 4rem;
     padding-bottom: 0rem;
   }
 
@@ -780,7 +781,7 @@ padding: 0 2rem;
 
   .mockuptext,
   .mockupimg {
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     
