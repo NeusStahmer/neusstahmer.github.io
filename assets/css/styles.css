@@ -34,33 +34,7 @@ dd {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  
-    background: linear-gradient(148deg, #e1ff60, #f8f9f6, #ef3afc);
-    background-size: 600% 600%;
-
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  background-color: #f8f9f6;
 
 }
 
@@ -119,6 +93,35 @@ body {
   
 }
 
+.home {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  
+    background: linear-gradient(148deg, #e1ff60, #f8f9f6, #ef3afc);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 .mainabout {
   display: flex;
@@ -150,7 +153,7 @@ h2 {
   font-size: 2.6rem;
   font-weight: 400;
   line-height: 1.2;
-  padding: 2rem 2rem 0;
+  padding: 2rem 0;
   margin-top: 0rem;
 }
 
@@ -355,7 +358,7 @@ p
 }
 .arrow {
   text-align: center;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
   color: #0f0f0e;
 }
 
@@ -748,8 +751,8 @@ padding: 0 2rem;
   }
 
   h2{
-    font-size: 3.2rem;
-    line-height: 1.4;
+    font-size: 3rem;
+    line-height: 1.3;
     font-weight: 400;
   }
 
@@ -914,7 +917,7 @@ padding: 0 2rem;
   .arrow {
    
     text-align: center;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
   }
   .projects {
     margin: 6rem 0;
